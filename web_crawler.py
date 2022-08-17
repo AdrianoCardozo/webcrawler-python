@@ -13,4 +13,5 @@ nota = re.findall(r'<div class="biGQs _P fiohW therk uuBRH">([\w.]+)</div>', web
 
 #agora é só printar usando o numero 0
 
+print('Resultado da coleta de dados:')
 print(f'Nota: {nota[0]}, Avaliação: {avaliacao[0]}')
